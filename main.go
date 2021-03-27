@@ -7,7 +7,7 @@ import (
 )
 
 func main() {
-	fmt.Println(weekdays.Message())
+	weekdays.PrintMessage()
 	if weekdays.IsWeekday() {
 		fmt.Println("Go to work!")
 	} else {
